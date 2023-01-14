@@ -1,0 +1,20 @@
+title: esp 🌩️ Shock
+email: info@pleaseshock.me
+description: An internet-connected open-source wireless ESP32-based shock collar controller.
+baseurl: ""
+url: "https://espshock.me"
+
+collections:
+  devices:
+    output: true
+
+header_pages:
+  - index.md
+  - devices.md
+
+theme: minima
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
